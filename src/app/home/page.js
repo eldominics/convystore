@@ -2,7 +2,7 @@ import Image from "next/image";
 import '../globals.css'
 
 
-
+//home
 export default function Home(){
   return(
     <>
