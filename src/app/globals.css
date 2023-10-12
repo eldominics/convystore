@@ -1,0 +1,231 @@
+*{padding: 0; margin: 0;box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
+
+
+/* style for header starts here */
+.header-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+    padding: 25px;
+    font-size: 14px;
+}
+
+.header-container a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+ .image-item, .main-menu, .side-menu{
+    flex: 0 1 auto;
+}
+
+.header-container .main-menu a{
+    margin-left: 25px;
+}
+
+
+.ham-icon{
+    width: 20px;
+    margin-right: 9px;
+}
+
+
+.search-div  {
+    flex: 0 1 20%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.search-input{
+    border: 0.1px solid grey; 
+    background-color:white;
+    border-radius: 50px;
+    padding: 12px;
+    width: 100%;
+}
+
+.search-div :first-child{
+    position: absolute;
+    top: 25px;
+    margin-left: 15px;
+    width: 15px;
+    
+}
+input:focus{outline: none;}
+
+.side-menu :first-child{
+  width: 20px;
+}
+.side-menu :nth-child(2){
+  width: 15px;
+  font-size: 4px;
+}
+.side-menu .cart-icon{
+    margin-right: 10px;
+}
+
+.side-menu .cart-icon .cart-num{
+    
+    position: absolute;
+    top: 47px;
+    font-size: 15px;
+    color: grey;
+    margin-left: -38px;
+
+}
+
+.header-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* styles for  first section starts here*/
+
+
+.section1-div{
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+   
+}
+
+.first-h2, .first-p{
+    color: whitesmoke;
+    flex: 0 0 70%;
+    
+
+}
+.first-h2{
+    font-size: xx-large;
+    margin-top: 140px;
+}
+.first-p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.section1-button{
+    margin-top: 40px;
+    margin-bottom: 140px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: larger;
+}
+
+
+/* styles for section2 */
+
+.section2-div{
+    display: flex;
+    max-width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.box{
+    flex: 0 1 20% ;
+    margin-right: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    
+    
+}
+
+.box-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.boxes-para{
+    display: flex;
+    margin-left: 7px;
+}
+.boxes-para span{
+    margin-right: auto;
+    margin-left: 5px;
+    font-size: small;
+    margin-top: 3px;
+}
+
+@media screen and (max-width:900px) {
+    .box{
+        flex:0 1 30%;
+    }
+    
+}
+
+
+/*styles for footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color:#fafafb;
+    align-items: center;
+    justify-content: center;
+ 
+}
+footer a{
+   text-decoration: none; 
+   color: black;
+}
+
+.footer-div1{
+    display: flex;margin-top: 60px;
+    margin-left: 40px;
+    
+    
+}
+.footer-div1 > div{
+    margin-right: 100px;
+}
+.footer-div1 h2{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-div1 p{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.footer-div2{
+    margin-top: 20px;
+    display: flex; 
+}
+.footer-div2 p{margin-right: 10px;}
+.fb{color: #3b5998; }
+.tweet{color: #00ACEE; }
+.insta{color: #dd2a7b;}
+.footer-div2 p a{
+    margin-right: 24px;
+}
+.footer-logo{
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+
+
+
+/* styles for Sign component */
+
+.reglog{
+    background-color: #3b5998;
+}
