@@ -19,7 +19,7 @@ export default function Home(){
     </section>
 
 
-    <section>
+    <section> //contains the images
       <div className="section2-div">
 
          <div className=" box">
