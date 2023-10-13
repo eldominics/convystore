@@ -4,22 +4,30 @@ import '../globals.css'
 
 
 export default function Home(){
+   let products = []
   return(
     <>
-    
+      {products?.map((product, index) =>{
+         <section key={product.id}>
+            <div className="box">
+               <img src={product.image}/>
+               <p>{product.title} <span>{product.price}</span></p>
+            </div>
+         </section>
+      })}
       <section>
-      <div className="section1-div">
-         <h2 className="first-h2"> Explore the world of quality clothings</h2>
-         <p className="first-p">Our stores have the finest clothings and accessories
-            that you can't find anywhere else.
-         </p>
-         <button className="section1-button"> Visit our stores</button>
-      </div>
+         <div className="section1-div">
+            <h2 className="first-h2"> Explore the world of quality clothings</h2>
+            <p className="first-p">Our stores have the finest clothings and accessories
+               that you can't find anywhere else.
+            </p>
+            <button className="section1-button"> Visit our stores</button>
+         </div>
          
-    </section>
+      </section>
 
 
-    <section> //contains the images
+    <section> 
       <div className="section2-div">
 
          <div className=" box">
